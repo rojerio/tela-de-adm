@@ -1,0 +1,150 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* src/components/AdminDashboard.css */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d32f2f;
+}
+
+/* src/components/AdminDashboard.css */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d32f2f;
+}
+
+.reservation-form {
+  margin-bottom: 20px;
+}
+
+.reservation-form .form-group {
+  margin-bottom: 10px;
+}
+
+.reservation-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.reservation-form input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.reservation-form button {
+  background-color: #8a0303;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.reservation-form button:hover {
+  background-color: #45a049;
+}
+
+input {
+  max-width: 350px;
+}
+
+.aling {
+  display: flex;
+flex-flow: row wrap;
+}
+
+.quartos {
+  margin: 3rem;
+  background-color: #cfcfcf;
+  height: 600px;
+  width: 500px;
+  border-radius: 20px;
+}
+
+.clientes {
+  margin: 3rem;
+}
